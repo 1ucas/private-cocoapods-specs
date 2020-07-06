@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   
     s.source                = { :git => "https://github.com/1ucas/modularization-mod-cross-flutter.git", :tag => s.version }
     s.ios.deployment_target = '10.3'
-    s.source_files          = '*.*'
+    s.source_files          = '**/*'
     
   end
   
