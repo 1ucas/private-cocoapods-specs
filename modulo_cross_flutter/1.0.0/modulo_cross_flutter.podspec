@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = 'https://twitter.com/manobray'
 
   s.source                = { :git => "https://github.com/1ucas/modularization-mod-cross-flutter.git", :tag => s.version }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
   s.vendored_frameworks   = '.ios/Flutter/App.framework'
   s.dependency 'Flutter'
   
